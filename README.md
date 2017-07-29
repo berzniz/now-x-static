@@ -1,12 +1,12 @@
-#now-x-static
+# now-x-static
 
 Deploy optimized static Single Page Applications using [`now`](https://zeit.co/now)
 
 - Static file serving
 - Default route is set to `/index.html`
+- Allows to proxy API requests from `/api` to your endpoint to avoid CORS complications
 - Optimized cache headers
 - Gzip resources
-- Allows to proxy API requests from `/api` to your endpoint to avoid CORS complications
 - Customizable by ejecting the configuration
 
 ## Install
