@@ -1,0 +1,27 @@
+{
+  "name": "now-x-static",
+  "version": "0.0.2",
+  "description": "Deploy optimized static Single Page Applications to \"now\"",
+  "keywords": [
+    "now",
+    "zeit",
+    "deploy",
+    "nginx",
+    "spa",
+    "static",
+    "api",
+    "proxy"
+  ],
+  "main": "index.js",
+  "bin": {
+    "now-x-static": "./index.js"
+  },
+  "repository": "berzniz/now-x-static",
+  "author": "Tal Bereznitskey <berzniz@gmail.com> (http://berzniz.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "del": "^3.0.0",
+    "yargonaut": "^1.1.2",
+    "yargs": "^8.0.2"
+  }
+}
